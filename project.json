@@ -1,0 +1,20 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaCartImagePhotoswipePlugin",
+	"extensionName": "Phoca Cart Image Photoswipe Plugin",
+	"projectInitials" : "PC",				  
+	"description": "Phoca Cart View - Image Photoswipe Plugin - this plugin creates Photoswipe modal window effect for Phoca Cart products in product detail view.",
+	"projectUrl": "https://www.phoca.cz/phocacart-extensions/2-plugins/114-phoca-cart-image-photoswipe-plugin",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/115-phoca-cart",
+	"projectMainComponent": "Phoca Cart",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocacart-joomla-ecommerce",
+	"projectDemo" : {
+		"Joomla! - Phoca Cart Demo": "https://www.phoca.cz/phocacartdemo/"
+	},
+	"projectColor": "#129ed9",
+	"projectBranch": "main",
+	"nameSpace": "Joomla\\Plugin\\Pcv\\ImagePhotoswipe"
+}

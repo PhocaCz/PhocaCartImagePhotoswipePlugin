@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="pcv" method="upgrade" version="4.0">
+	<name>plg_pcv_image_photoswipe</name>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>09/08/2023</creationDate>
+	<authorEmail></authorEmail>
+	<authorUrl>https://www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>4.0.8</version>
+	<description>PLG_PCV_IMAGE_PHOTOSWIPE_DESCRIPTION</description>
+	<namespace path="src">Joomla\Plugin\Pcv\ImagePhotoswipe</namespace>
+	<projectName>PhocaCartImagePhotoswipePlugin</projectName>
+
+	<media destination="plg_pcv_image_photoswipe" folder="media">
+		<folder>css</folder>
+		<folder>js</folder>
+		<filename>index.html</filename>
+	</media>
+
+	<files>
+		<folder>helpers</folder>
+		<filename plugin="image_photoswipe">index.html</filename>
+		<filename plugin="image_photoswipe">manifest.xml</filename>
+		<filename plugin="image_photoswipe">image_photoswipe.php</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pcv_image_photoswipe.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pcv_image_photoswipe.sys.ini</language>
+	</languages>
+
+	<administration>
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pcv_image_photoswipe.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pcv_image_photoswipe.sys.ini</language>
+		</languages>
+	</administration>
+	
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+
+                <field name="zoom_image" type="list" default="l" label="PLG_PCV_IMAGE_PHOTOSWIPE_FIELD_ZOOM_IMAGE_LABEL" description="PLG_PCV_IMAGE_PHOTOSWIPE_FIELD_ZOOM_IMAGE_DESC">
+                    <option value="l">PLG_PCV_IMAGE_PHOTOSWIPE_LARGE_THUMBNAIL</option>
+                    <option value="o">PLG_PCV_IMAGE_PHOTOSWIPE_ORIGINAL_IMAGE</option>
+                </field>
+
+                <field name="photoswipe_slideshow" type="list" default="1" label="PLG_PCV_IMAGE_PHOTOSWIPE_FIELD_PHOTOSWIPE_SLIDESHOW_LABEL" description="PLG_PCV_IMAGE_PHOTOSWIPE_FIELD_PHOTOSWIPE_SLIDESHOW_DESC">
+                    <option value="0">PLG_PCV_IMAGE_PHOTOSWIPE_LARGE_DISABLED</option>
+                    <option value="1">PLG_PCV_IMAGE_PHOTOSWIPE_LARGE_ENABLED</option>
+                </field>
+
+                <field name="photoswipe_slide_effect" type="list" default="0" label="PLG_PCV_IMAGE_PHOTOSWIPE_FIELD_PHOTOSWIPE_DISABLE_SLIDE_EFFECT_LABEL" description="PLG_PCV_IMAGE_PHOTOSWIPE_FIELD_PHOTOSWIPE_DISABLE_SLIDE_EFFECT_DESC">
+                    <option value="0">PLG_PCV_IMAGE_PHOTOSWIPE_NO</option>
+                    <option value="1">PLG_PCV_IMAGE_PHOTOSWIPE_YES</option>
+                </field>
+
+            </fieldset>
+        </fields>
+    </config>
+
+	<updateservers>
+		<server type="extension" name="PLG_PCV_IMAGE_PHOTOSWIPE" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaCartImagePhotoswipePlugin/main/manifest.xml]]></server>
+	</updateservers>
+</extension>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<updates>
+	<update>
+		<name><![CDATA[ Phoca Cart Image Photoswipe Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart View - Image Photoswipe Plugin - this plugin creates Photoswipe modal window effect for Phoca Cart products in product detail view. ]]></description>
+		<element>image_photoswipe</element>
+		<folder>pcv</folder>
+		<type>plugin</type>
+		<version>4.0.8</version>
+		<infourl title="Phoca Cart Image Photoswipe Plugin 4.0.8">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartImagePhotoswipePlugin/releases/download/4.0.8/plg_pcv_image_photoswipe_v4.0.8.zip</downloadurl>
+		</downloads>
+		<sha512>7a46c8f13d5215314d00d0343535b6542beef6e23396f7719cee183557a923d8d0fc067a1e28026358563c4a2bd94c05eab98c7fe21dbc542c59ffb4f9a76b42</sha512>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="4\.*"/>
+		<client>site</client>
+	</update>
+</updates>
