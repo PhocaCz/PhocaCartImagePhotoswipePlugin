@@ -11,7 +11,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartImagePhotoswipePlugin/releases/download/4.0.8/plg_pcv_image_photoswipe_v4.0.8.zip</downloadurl>
 		</downloads>
-		<sha512>7a46c8f13d5215314d00d0343535b6542beef6e23396f7719cee183557a923d8d0fc067a1e28026358563c4a2bd94c05eab98c7fe21dbc542c59ffb4f9a76b42</sha512>
+		<sha512>6d0b39df9b4500cee42abff26f7ab972ec9884a8151298ba22332535ee043acf3d9748ec5f30a04d75643043235a35f2c143dca8dfd8c94825de7e7427146f34</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
