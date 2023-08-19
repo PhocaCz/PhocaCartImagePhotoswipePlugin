@@ -2,7 +2,7 @@
 <extension type="plugin" group="pcv" method="upgrade" version="4.0">
 	<name>plg_pcv_image_photoswipe</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>09/08/2023</creationDate>
+	<creationDate>19/08/2023</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
