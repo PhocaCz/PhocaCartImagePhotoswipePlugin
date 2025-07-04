@@ -19,7 +19,14 @@ jimport( 'joomla.plugin.plugin' );
 jimport( 'joomla.filesystem.file');
 jimport( 'joomla.html.parameter' );
 
-JLoader::registerPrefix('Phocacart', JPATH_ADMINISTRATOR . '/components/com_phocacart/libraries/phocacart');
+
+if (file_exists(JPATH_ADMINISTRATOR . '/components/com_phocacart/libraries/bootstrap.php')) {
+	// Joomla 5 and newer
+	require_once(JPATH_ADMINISTRATOR . '/components/com_phocacart/libraries/bootstrap.php');
+} else {
+	// Joomla 4
+	JLoader::registerPrefix('Phocacart', JPATH_ADMINISTRATOR . '/components/com_phocacart/libraries/phocacart');
+}
 
 final class plgPCVImage_Photoswipe extends CMSPlugin
 {
@@ -141,7 +148,13 @@ final class plgPCVImage_Photoswipe extends CMSPlugin
 			$o[] = '<div class="' . $s['c']['row'] . ' ph-item-image-add-box">';
 
 			$i = 1;
+
+
 			foreach ($t['add_images'] as $v2) {
+
+				if ($v2->image == '') {
+					continue;
+				}
 
 				$active = '';
 
