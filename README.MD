@@ -52,10 +52,6 @@ Phoca Cart View - Image Photoswipe Plugin - this plugin creates Photoswipe modal
 
 
 
-## Version (Joomla! 4.x)
-
-4.0.8
-
 ## Version (Joomla! 5.x)
 
 5.1.2

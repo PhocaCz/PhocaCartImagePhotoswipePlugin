@@ -6,26 +6,6 @@
 		<element>image_photoswipe</element>
 		<folder>pcv</folder>
 		<type>plugin</type>
-		<version>4.0.8</version>
-		<infourl title="Phoca Cart Image Photoswipe Plugin 4.0.8">https://www.phoca.cz/</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartImagePhotoswipePlugin/releases/download/4.0.8/plg_pcv_image_photoswipe_v4.0.8.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
-		<maintainerurl>https://www.phoca.cz/</maintainerurl>
-		<section>Updates</section>
-		<targetplatform name="joomla" version="4\.*"/>
-		<client>site</client>
-	</update>
-	<update>
-		<name><![CDATA[ Phoca Cart Image Photoswipe Plugin ]]></name>
-		<description><![CDATA[ Phoca Cart View - Image Photoswipe Plugin - this plugin creates Photoswipe modal window effect for Phoca Cart products in product detail view. ]]></description>
-		<element>image_photoswipe</element>
-		<folder>pcv</folder>
-		<type>plugin</type>
 		<version>5.1.2</version>
 		<infourl title="Phoca Cart Image Photoswipe Plugin 5.1.2">https://www.phoca.cz/</infourl>
 		<downloads>
@@ -39,6 +19,27 @@
 		<maintainerurl>https://www.phoca.cz/</maintainerurl>
 		<section>Updates</section>
 		<targetplatform name="joomla" version="5\.*"/>
+		<client>site</client>
+	</update>
+	<update>
+		<name><![CDATA[ Phoca Cart Image Photoswipe Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart View - Image Photoswipe Plugin - this plugin creates Photoswipe modal window effect for Phoca Cart products in product detail view. ]]></description>
+		<element>image_photoswipe</element>
+		<folder>pcv</folder>
+		<type>plugin</type>
+		<version>6.1.0</version>
+		<infourl title="Phoca Cart Image Photoswipe Plugin 6.1.0">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartImagePhotoswipePlugin/releases/download/6.1.0/plg_pcv_image_photoswipe_v6.1.0.zip</downloadurl>
+		</downloads>
+		<sha512>882bc5cccde0c060137cf67e7739fac8ee71052c4348e89c2a399dd587f5cc5af1fe5025eb4ac4046037667c6d51a0f1df1ef1488782815d327cdcd442dbda21</sha512>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="(5|6)\.*"/>
 		<client>site</client>
 	</update>
 </updates>
